@@ -2,8 +2,6 @@
 
 A Python learning exercise that retrieves Apple stock history and plots its opening price.
 
-**Repository naming note:** the current repository name mentions GameStop, but the notebook uses the Apple ticker `AAPL`. Renaming the repository to `apple-stock-data-exploration` would match its actual contents.
-
 ## Learning question
 
 How can a stock price dataset be retrieved, inspected, and plotted with Python?
@@ -33,7 +31,7 @@ Python, Jupyter, yfinance, pandas, matplotlib, and matplotlib-inline.
 
 ## Local setup
 
-After adding the proposed `requirements.txt`:
+Install the dependencies listed in `requirements.txt`:
 
 ```bash
 python -m venv .venv
@@ -47,7 +45,7 @@ Use the Python executable inside `.venv` for installation and launch. Open `FINL
 
 The notebook downloads the JSON sample through Python with a 30-second timeout. No wget installation is required. The historical price cutoff is 2024-10-05, with auto_adjust=False explicitly selected.
 
-The proposed dependencies are not a tested, version-locked environment.
+Dependencies are listed, not version-locked. Live-source execution has not been verified.
 
 ## Results and limitations
 
@@ -57,7 +55,6 @@ This is descriptive exploration. It does not establish a relationship between bu
 
 ## Improvements before portfolio use
 
-- Rename the repository to match Apple.
 - Document retrieval dates and external data usage terms.
 - Restart and run all cells against the live sources.
 - Add a verified chart preview and three evidence-based observations.
